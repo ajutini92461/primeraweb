@@ -48,19 +48,6 @@ p{
 #form{
     text-align: center;
 }
-textarea{
-    resize: vertical;
-    height: 150px;
-}
-footer{
-    color:rgb(104, 188, 156);
-    font-weight: 100;
-}
-.fa-instagram, .fa-twitter, .fa-facebook{
-    font-size: 30px;
-    color: rgb(104, 188, 156);
-    margin: 5px;
-}
 #form{
     color: #6a6a6a;
 }
@@ -68,17 +55,25 @@ footer{
     color: rgb(104, 188, 156);
     font-size: 36px;
 }
+textarea{
+    resize: vertical;
+    height: 150px;
+}
 .btn-verde{
-    background-color: rgb(104, 188, 156);;
+    background-color: rgb(104, 188, 156);
     color: #fff;
     font-weight: 300;
     border-radius: 15px;
-    background-color: rgb(104, 188, 156);;
 }
 .btn-verde:hover{
     background-color: white;
     color: rgb(104, 188, 156);
     border:  rgb(104, 188, 156) dotted;
+}
+.fa-instagram, .fa-twitter, .fa-facebook{
+    font-size: 30px;
+    color: rgb(104, 188, 156);
+    margin: 5px;
 }
 .bloque-whatsapp a{
     color: white;
@@ -94,19 +89,16 @@ footer{
     border-top-left-radius: 10px;
 }
 
-@media (max-width: 750px){
+@media (max-width: 570px){
 
     .bloque-whatsapp{
         right: 15px;
-    }
-    header{
-        text-align: center;
     }
     .card{
         height: 400px;
         width: 300px;
     }
-    #info{
+    body{
         text-align: center;
     }
 }
