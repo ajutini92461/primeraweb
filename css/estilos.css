@@ -47,8 +47,6 @@ p{
 }
 #form{
     text-align: center;
-}
-#form{
     color: #6a6a6a;
 }
 #form h2{
@@ -89,7 +87,7 @@ textarea{
     border-top-left-radius: 10px;
 }
 
-@media (max-width: 570px){
+@media (max-width: 560px){
 
     .bloque-whatsapp{
         right: 15px;
