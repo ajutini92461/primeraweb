@@ -157,24 +157,40 @@
                     <p>Si estás interesado en adoptar déjanos tu información</p>
                 </div>
                 <div class="col-sm-6 col-12 offset-sm-3">
-                    <form method="post">
+                    <form method="post" autocomplete="on">
                         <div class="pb-3">
-                            <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" required
+                            <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre*" required
                                 class="form-control shadow">
                         </div>
                         <div class="pb-3">
-                            <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" required
+                            <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo*" required
                                 class="form-control shadow">
                         </div>
                         <div class="pb-3">
-                            <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Teléfono/Celular"
+                            <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Teléfono/Celular*"
                                 required class="form-control shadow">
                         </div>
                         <div class="pb-3">
                             <textarea name="txtMensaje" id="txtMensaje"
-                                placeholder="Escribe aquí tu mensaje" required class="form-control shadow"></textarea>
+                                placeholder="Escribe aquí tu mensaje*" required class="form-control shadow" autocomplete="off"></textarea>
                         </div>
                         <div class="pb-3">
+                            <label for="" class="pb-3">Quiero que me contacten el:*</label>
+                            <input type="date" name="fecha" id="fecha" required class="form-control shadow" autocomplete="off">
+                        </div>
+                        <div class="pb-3">
+                            <label for="lstHora" class="pb-3">En horas de la:*</label>
+                            <select name="lstHora" id="lstHora" required class="form-control shadow" autocomplete="off">
+                                <option disabled selected>Seleccionar</option>
+                                <option value="ventas">Mañana</option>
+                                <option value="soportes">Tarde</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="chkCondiciones" id="chkCondiciones" autocomplete="off">
+                            <label for="chkCondiciones">Acepto el tratamiento de mis datos personales</label>
+                        </div>
+                        <div class="py-3">
                             <button type="submit" name="btnEnviar" id="btnEnviar"
                                 class="btn btn-verde shadow">ENVIAR</button>
                         </div>

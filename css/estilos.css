@@ -61,7 +61,9 @@ footer{
     color: rgb(104, 188, 156);
     margin: 5px;
 }
-
+#form{
+    color: #6a6a6a;
+}
 #form h2{
     color: rgb(104, 188, 156);
     font-size: 36px;
