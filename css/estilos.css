@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+#fundacion{
+    background-image: url(../imagenes/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#fundacion img{
+    width: 200px;
+}
+#animales h2{
+    padding: 5px;
+    margin: 0px;
+    color: #fff;
+}
+#fundacion h3{
+    font-size: 25px;
+}
+#fundacion .card{
+    height: 350px;
+    width: 300px;
+}
+.responsive{
+    padding-bottom: 300px;
+    padding-top: 30px;
+    position: relative;
+}
+.responsive iframe{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#form{
+    text-align: center;
+}
+#animales{
+    background-color: rgb(104, 188, 156);
+    background-size: 100%;
+}
+#fundacion p{
+    font-size: 16px;
+    color: #6a6a6a;
+}
+
+#fundacion footer{
+    color:rgb(104, 188, 156);
+    font-weight: 100;
+}
+#fundacion footer .fa-instagram, #fundacion .fa-twitter, #fundacion .fa-facebook{
+    font-size: 30px;
+    color: rgb(104, 188, 156);
+    margin: 5px;
+}
+h1{
+    color: rgb(104, 188, 156);;
+}
+#form h2{
+    color: rgb(104, 188, 156);
+    font-size: 36px;
+}
+textarea{
+    resize: vertical;
+    height: 150px;
+}
+footer .bloque-whatsapp a{
+    color: white;
+}
+
+.btn{
+    border: white;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 6px;
+}
+.bloque-whatsapp{
+    position:fixed;
+    bottom: 0px;
+    right: 100px;
+    background-color: rgb(104, 188, 156);
+    font-size: 30px;
+    padding: 8px 16px 15px 16px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.btn-rojo{
+    background-color: rgb(104, 188, 156);;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 15px;
+    background-color: rgb(104, 188, 156);;
+}
+.btn-rojo:hover{
+    background-color: white;
+    color: rgb(104, 188, 156);
+    border:  rgb(104, 188, 156) dotted;
+}
+
+#fundacion header p{
+    font-style: italic;
+}
+
+@media (max-width: 750px){
+
+    .bloque-whatsapp{
+        right: 15px;
+    }
+    #fundacion header{
+        text-align: center;
+    }
+    #fundacion .card{
+        height: 400px;
+        width: 300px;
+    }
+    #info{
+        text-align: center;
+    }
+
+}
+
