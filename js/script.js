@@ -8,7 +8,7 @@ console.log(menu);
 menu.addEventListener("click", (e) => {
     menuNav.classList.toggle("spread");
 });
-/*clic en la pantalla se dispara otra funciónd de flecha. e =elemento*/
+/*clic en la pantalla se dispara otra función de flecha. e =elemento*/
 window.addEventListener("click", (e) => {
     if (menuNav.classList.contains("spread") && e.target != menuNav && e.target != menu) {
         menuNav.classList.toggle("spread");
